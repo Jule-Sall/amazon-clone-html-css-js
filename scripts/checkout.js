@@ -1,6 +1,6 @@
 import { products, getProduct, loadProductsAsync } from "../data/products.js";
-import { renderOrderSummary} from "../data/checkout/orderSummary.js";
-import { renderPaymentSummary } from "../data/checkout/paymentSummary.js";
+import { renderOrderSummary} from "./checkout/orderSummary.js";
+import { renderPaymentSummary } from "./checkout/paymentSummary.js";
 
 async function loadPageAsync(){
     
